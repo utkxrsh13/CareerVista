@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://careervista-frontend.onrender.com',
+    origin:"https://careervista-frontend.onrender.com",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials:true
 }
